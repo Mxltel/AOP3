@@ -1,6 +1,7 @@
+import mysql.connector
+import csv
 import tkinter as tk
 from tkinter import ttk, messagebox
-import mysql.connector
 
 # Configuração do Banco de Dados
 DB_CONFIG = {
@@ -106,6 +107,8 @@ frame_resultados.pack(fill=tk.BOTH, expand=True)
 
 root.mainloop()
 
+
+# Grafico
 import pymysql
 import pandas as pd
 import matplotlib.pyplot as plt
